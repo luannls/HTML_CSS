@@ -39,7 +39,7 @@ Plataforma institucional para o Instituto Kaleo, com informações sobre projeto
 index.html
 projetos.html
 cadastro.html
-```
+``
 
 ## 🗂️ Versionamento
 Adotado modelo **GitFlow**, com commits semânticos e versionamento `v1.0.0`.
