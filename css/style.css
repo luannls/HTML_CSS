@@ -131,3 +131,93 @@ footer {
     width: 8rem;
   }
 }
+
+a:focus, button:focus, input:focus {
+  outline: 3px solid #FFD700;
+  outline-offset: 3px;
+}
+
+button#contraste {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: #006494;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+body.contraste-alto {
+  background: #000 !important;
+  color: #fff !important;
+}
+/* ----------------------------
+   MODO ESCURO
+-----------------------------*/
+body.dark-mode {
+  background-color: #0f172a; /* Fundo escuro elegante */
+  color: #e2e8f0; /* Texto claro */
+  transition: background 0.4s, color 0.4s;
+}
+
+body.dark-mode header {
+  background-color: #1e293b;
+  color: #f1f5f9;
+}
+
+body.dark-mode footer {
+  background-color: #1e293b;
+  color: #f8fafc;
+}
+
+body.dark-mode nav a {
+  color: #e2e8f0;
+}
+
+body.dark-mode nav a:hover,
+body.dark-mode nav a.ativo {
+  color: #38bdf8;
+}
+
+body.dark-mode h2 {
+  color: #f1f5f9;
+}
+
+body.dark-mode p,
+body.dark-mode li {
+  color: #cbd5e1;
+}
+
+body.dark-mode img {
+  opacity: 0.9;
+}
+/* Botão do modo escuro */
+#toggle-dark-mode {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  background-color: #006494;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s, transform 0.3s;
+  z-index: 999;
+}
+
+#toggle-dark-mode:hover {
+  background-color: #004c6d;
+  transform: scale(1.1);
+}
+
+/* Botão em modo escuro */
+body.dark-mode #toggle-dark-mode {
+  background-color: #facc15;
+  color: #000;
+}

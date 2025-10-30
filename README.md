@@ -1,6 +1,6 @@
 # 🌱 Instituto Kaleo
 
-Projeto desenvolvido como parte da disciplina **Experiências Práticas – Construindo Interfaces Web Modernas**.
+Projeto desenvolvido como parte da disciplina **Experiências Práticas – Desenvolvimento Front-End Para Web**.
 
 ## 🧭 Descrição
 Plataforma institucional para o Instituto Kaleo, com informações sobre projetos sociais, cadastro de voluntários e interface responsiva.
